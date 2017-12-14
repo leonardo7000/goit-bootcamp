@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wraper {
+    background-color: lightgray;
+    height: 100vh;
+    padding: 60px 0;
+}
+
+.all {
+    background-color: white;
+    width: 500px;
+    padding: 20px 30px;
+    margin: auto;
+    /*margin-left: auto;*/
+    vertical-align: middle;
+
+}
+
+.br {
+    margin: 0 0 15px 0;
+}
+
+.text {
+    color: blue;
+}
+
+.title {
+    margin: 0 0 15px 0;
+}
+
+.subtitle {
+    margin: 0 0 10px 0;
+}
