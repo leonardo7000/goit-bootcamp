@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    width: 70px;
+    height: 25px;
+    display: inline-block;
+    border: 2px solid #000000;
+    margin: auto;
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+.fa {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.fa:hover {
+    display: block;
+    list-style: none;
+    /*background-color: #d3d3d3;*/
+    /*background: #ff0000;*/
+    background: #ffff00;
+
+}
+
+/*.task1:hover {*/
+    /*color: #ffff00;*/
+    /*background: #ff0000;*/
+
+
+/*.second {*/
+    /**/
+/*}*/
+
+.second {
+    width: 70px;
+    height: 25px;
+    float: left;
+    border: 2px solid #000000;
+    background-color: #d3d3d3;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sa {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.sa:hover {
+    display: block;
+
+    /*background-color: #d3d3d3;*/
+    /*background: #ff0000;*/
+    background: #ffff00;
+}
+
+.clearfix:after {
+    display: block;  /* сделать блоком, т.к. inline не может иметь clear */
+    clear: both;  /* с обеих сторон clear */
+
+}
+
+.third {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.ta{
+    width: 50px;
+    height: 50px;
+    color: #0E1116;
+    margin: 20px;
+}
+.ta:nth-child(2n+1) {
+    background: #88292F;
+}
+
+.ta:nth-child(3n+2) {
+    background: #5DB7DE;
+}
+
+.ta:nth-child(3n+1) {
+    background: #0D5D56;
+}
+
+.ff {
+    list-style: none;
+}
+
+.fifth {
+    width: 90px;
+    height: 25px;
+    border: 2px solid #000000;
+    background: #00ffff;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 40px;
+}
+
+.text-link {
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 50px;
+}
+
+.fifth2 {
+    margin: 20px 30px;
+}
+
+.fifth2:target {
+    background: #ff0000;
+    border: 4px solid #ffff00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
