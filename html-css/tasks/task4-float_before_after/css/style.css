@@ -64,6 +64,7 @@
 }
 
 .clearfix:after {
+    content: "";
     display: block;  /* сделать блоком, т.к. inline не может иметь clear */
     clear: both;  /* с обеих сторон clear */
 
@@ -80,7 +81,7 @@
     color: #0E1116;
     margin: 20px;
 }
-.ta:nth-child(2n+1) {
+.ta:nth-child(3n+3) {
     background: #88292F;
 }
 
