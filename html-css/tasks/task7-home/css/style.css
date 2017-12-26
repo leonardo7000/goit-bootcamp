@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1600px;
+    margin: auto;
+    background-image: url("../img/bg-header.jpg");
+
+}
+
+.head {
+    width: 960px;
+    height: 670px;
+    margin: auto;
+
+}
+
+.top {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navy {
+
+}
+
+.navy-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.navy-link:hover {
+    color: rgba(0, 224, 208, 255);;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+
+}
+
+.logo {
+
+}
